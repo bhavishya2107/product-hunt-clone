@@ -9,7 +9,6 @@ const ProductHunt = () => {
             <MainSection />
         </div>
     )
-
 }
 
 export default ProductHunt;
