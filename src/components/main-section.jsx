@@ -1,11 +1,13 @@
 import React from 'react'
 import MainSectionLeft from './main-section-left'
+import MainSectionRight from './main-section-right'
 
 
 const MainSection = () => {
 
   return (
     <div className="main">
+      <div className="main-left-container">
       <div className="popular-this-month">
         <p className="popular-heading">Popular this month</p>
         <MainSectionLeft
@@ -89,6 +91,10 @@ const MainSection = () => {
         ].map(profile => (
           <MainSectionLeft {...profile} />
         ))}
+      </div>
+      </div>
+      <div className="main-section-right">
+        <MainSectionRight />
       </div>
     </div>
   )
