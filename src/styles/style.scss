@@ -1,0 +1,145 @@
+body {
+  background-color: #f3f3f3;
+  // padding: 20px;
+}
+
+.header-div {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 67px;
+  text-align: center;
+  width: 100%;
+  background-color: #ffffff;
+  .header-content-div {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 65%;
+  }
+//   input {
+//     height: 30px;
+//     width: 300px;
+//   }
+  .input_container {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width: 40%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    // padding: 0.3rem;
+    border-radius: 0.2rem;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+  }
+  .search_container {
+    width: 11%;
+    padding: 0 0.2rem;
+  }
+  .search {
+    width: 100%;
+    opacity: 0.8;
+  }
+  .input_box {
+    width: 300px;
+    border: none;
+    font-size: 0.8rem;
+    color: rgba(0, 0, 0, 0.5);
+    outline: none;
+  }
+  .input_box::placeholder {
+    font-size: 0.8rem;
+    color: rgba(0, 0, 0, 0.5);
+  }
+
+  .login_btn,
+  .signup_btn {
+    padding: 0.5rem 0.7rem;
+    margin: 0 0.2rem;
+    font-weight: 700;
+    border-radius: 0.2rem;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+  }
+  .login_btn:hover {
+    background-color: #f3f3f3;
+  }
+  .signup_btn {
+    background-color: #cc4d2b;
+    color: white;
+  }
+  .signup_btn:hover {
+    background-color: rgb(252, 81, 34);
+    color: black;
+  }
+  span {
+    color: #6f6f6f;
+  }
+  span:hover {
+    color: black;
+    cursor: pointer;
+  }
+}
+
+// main-section-left
+
+.container {
+  width: 720px;
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  left: 21rem;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 120px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background: #fff;
+
+  .container-up-vote {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 75px;
+    height: 75px;
+    border: 1px #f3f3f3 solid;
+    border-radius: 2px;
+  }
+  .container-up-vote:hover {
+    background: #f3f3f3;
+  }
+}
+
+.popular-this-month {
+  .popular-heading {
+    font-weight: 500;
+    font-size: 1.5rem;
+    position: relative;
+    left: 21rem;
+  }
+}
+
+.today-container {
+  .today-conatiner-heading {
+    //   width: 720px;
+      display: flex;
+      justify-content: space-evenly;
+      align-items: center;
+      position: relative;
+      left: -3.8rem;
+      width: 85%;
+      font-weight: 500;
+      font-size: 1.5rem;
+  }
+  .today-container-heading-2 {
+    // width: 20px;
+    position: relative;
+    left: 4.5rem;
+    display: flex;
+    justify-content: space-evenly;
+    width:15%;
+    font-weight: 100;
+    font-size: 1rem;
+  }
+}
