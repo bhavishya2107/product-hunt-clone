@@ -28,14 +28,14 @@ const Jobs = () => {
                             title: "HotJar",
                             text: "Full-stack Engineer/ Product Engineer",
                             comments: "share",
-                            upVotes: "India"
+                            upVotes: "San Francisco"
                         },
                         {
                             image: "https://ph-files.imgix.net/ca3aa0f8-45cf-47d3-a10f-900476ccab68?auto=format&auto=compress&codec=mozjpeg&cs=strip&w=60&h=60&fill-color=fff&fit=fillmax&fill=solid",
                             title: "The Offix",
                             text: "Full-stack Engineer/ Product Engineer",
                             comments: "share",
-                            upVotes: "India"
+                            upVotes: "New York"
                         },
 
                         {
@@ -43,7 +43,7 @@ const Jobs = () => {
                             title: "The Offix",
                             text: "Full-stack Engineer/ Product Engineer",
                             comments: "share",
-                            upVotes: "India"
+                            upVotes: "Poland"
                         },
 
                         {
@@ -51,33 +51,33 @@ const Jobs = () => {
                             title: "The Offix",
                             text: "Full-stack Engineer/ Product Engineer",
                             comments: "share",
-                            upVotes: "India"
+                            upVotes: "Berlin"
                         },
                         {
                             image: "https://ph-files.imgix.net/4a885fb1-aa08-4688-89ef-5a4d4301bb12?auto=format&auto=compress&codec=mozjpeg&cs=strip&w=60&h=60&fill-color=fff&fit=fillmax&fill=solid",
                             title: "The Offix",
                             text: "Full-stack Engineer/ Product Engineer",
                             comments: "share",
-                            upVotes: "India"
+                            upVotes: "Remote"
                         },
                         {
                             image: "https://ph-files.imgix.net/4a885fb1-aa08-4688-89ef-5a4d4301bb12?auto=format&auto=compress&codec=mozjpeg&cs=strip&w=60&h=60&fill-color=fff&fit=fillmax&fill=solid",
                             title: "The Offix",
                             text: "Full-stack Engineer/ Product Engineer",
                             comments: "share",
-                            upVotes: "India"
+                            upVotes: "Mumbai"
                         },
                         {
                             image: "https://ph-files.imgix.net/852298cd-5818-4cfb-a1db-e011764e854b?auto=format&auto=compress&codec=mozjpeg&cs=strip&w=60&h=60&fill-color=fff&fit=fillmax&fill=solid",
-                            title: "The Offix",
-                            text: "Full-stack Engineer/ Product Engineer",
+                            title: "Big Binary",
+                            text: "Product Engineer",
                             comments: "share",
-                            upVotes: "India"
+                            upVotes: "Pune"
                         },
                         {
                             image: "https://ph-files.imgix.net/4e1b7c25-8b47-45d4-86c5-47ab4c1aab0a?auto=format&auto=compress&codec=mozjpeg&cs=strip&w=60&h=60&fill-color=fff&fit=fillmax&fill=solid",
                             title: "The Offix",
-                            text: "Full-stack Engineer/ Product Engineer",
+                            text: "System Engineer",
                             comments: "share",
                             upVotes: "India"
                         }
