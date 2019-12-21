@@ -22,9 +22,11 @@ function Header() {
                 <Link to="/jobs" style={{ textDecoration: "none" }}>
                     <span>Jobs</span>
                 </Link>
-                <span>Makers</span>
+                <Link to="/upcoming" style={{ textDecoration: "none" }}>
+                    <span>Upcoming</span>
+                </Link>
                 <span>Radio</span>
-                <span>Ship</span>
+                {/* <span>Ship</span> */}
                 <div className="right_elm">
                     <button className="login_btn">LOG IN</button>
                     <button className="signup_btn">SIGN UP</button>

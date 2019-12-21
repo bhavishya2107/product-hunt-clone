@@ -5,6 +5,7 @@ import './index.css';
 import ProductHunt from './components/product-hunt-app';
 import Jobs from './components/jobs'
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import Upcoming from './components/upcoming';
 
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
       <Switch>
         <Route exact path="/" component={ProductHunt} />
         <Route exact path="/jobs" component={Jobs} />
+        <Route exact path="/upcoming" component={Upcoming} />
       </Switch>
     </Router>
   )
