@@ -26,14 +26,14 @@ const Upcoming = () => {
                         {
                             image: "https://ph-files.imgix.net/ca3aa0f8-45cf-47d3-a10f-900476ccab68?auto=format&auto=compress&codec=mozjpeg&cs=strip&w=60&h=60&fill-color=fff&fit=fillmax&fill=solid",
                             title: "The Offix",
-                            text: "Full-stack Engineer/ Product Engineer with a passion for machine learning/big data",
+                            text: "Full-stack Engineer/ Product Engineer",
                             comments: "share",
                             upVotes: "India"
                         },
                         {
                             image: "https://ph-files.imgix.net/ca3aa0f8-45cf-47d3-a10f-900476ccab68?auto=format&auto=compress&codec=mozjpeg&cs=strip&w=60&h=60&fill-color=fff&fit=fillmax&fill=solid",
                             title: "The Offix",
-                            text: "Full-stack Engineer/ Product Engineer with a passion for machine learning/big data",
+                            text: "Full-stack Engineer/ Product Engineer",
                             comments: "share",
                             upVotes: "India"
                         },
