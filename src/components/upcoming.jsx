@@ -16,43 +16,58 @@ const Upcoming = () => {
                     </div>
                     {[
                         {
-                            image: "https://ph-files.imgix.net/ca3aa0f8-45cf-47d3-a10f-900476ccab68?auto=format&auto=compress&codec=mozjpeg&cs=strip&w=60&h=60&fill-color=fff&fit=fillmax&fill=solid",
-                            title: "The Offix",
-                            text: "Full-stack Engineer/ Product Engineer with a passion for machine learning/big data",
-                            comments: "share",
-                            upVotes: "India"
-                        },
-
-                        {
-                            image: "https://ph-files.imgix.net/ca3aa0f8-45cf-47d3-a10f-900476ccab68?auto=format&auto=compress&codec=mozjpeg&cs=strip&w=60&h=60&fill-color=fff&fit=fillmax&fill=solid",
+                            image: "https://ph-files.imgix.net/193a1f93-eda6-4bcd-b387-91a28f8df54f?auto=format&auto=compress&codec=mozjpeg&cs=strip&w=80&h=80&fit=crop&bm=normal&bf=max&bh=40&bw=40",
                             title: "The Offix",
                             text: "Full-stack Engineer/ Product Engineer",
                             comments: "share",
-                            upVotes: "India"
+                            upVotes: "Subscribe"
                         },
+
                         {
-                            image: "https://ph-files.imgix.net/ca3aa0f8-45cf-47d3-a10f-900476ccab68?auto=format&auto=compress&codec=mozjpeg&cs=strip&w=60&h=60&fill-color=fff&fit=fillmax&fill=solid",
+                            image: "https://ph-files.imgix.net/b21c9cff-c65e-4942-aac9-3f9c5600eea7?auto=format&auto=compress&codec=mozjpeg&cs=strip&w=80&h=80&fit=crop&bm=normal&bf=max&bh=40&bw=40",
                             title: "The Offix",
                             text: "Full-stack Engineer/ Product Engineer",
                             comments: "share",
-                            upVotes: "India"
+                            upVotes: "Subscribe"
+                        },
+                        {
+                            image: "https://ph-files.imgix.net/ba337174-d3a2-4323-b0c8-43709c8643ae?auto=format&auto=compress&codec=mozjpeg&cs=strip&w=80&h=80&fit=crop&bm=normal&bf=max&bh=40&bw=40",
+                            title: "The Offix",
+                            text: "Full-stack Engineer/ Product Engineer",
+                            comments: "share",
+                            upVotes: "Subscribe"
                         },
 
                         {
-                            image: "https://ph-files.imgix.net/47041b9e-82b7-4af9-981b-113ff49959e5?auto=format&auto=compress&codec=mozjpeg&cs=strip&w=60&h=60&fill-color=fff&fit=fillmax&fill=solid",
+                            image: "https://ph-files.imgix.net/6cf24e4d-e094-4137-b210-5ce6211f8a37?auto=format&auto=compress&codec=mozjpeg&cs=strip&w=80&h=80&fit=crop&bm=normal&bf=max&bh=40&bw=40",
                             title: "The Offix",
-                            text: "Full-stack Engineer/ Product Engineer with a passion for machine learning/big data",
+                            text: "Full-stack Engineer/ Product Engineer",
                             comments: "share",
-                            upVotes: "India"
+                            upVotes: "Subscribe"
                         },
 
                         {
-                            image: "https://ph-files.imgix.net/ca3aa0f8-45cf-47d3-a10f-900476ccab68?auto=format&auto=compress&codec=mozjpeg&cs=strip&w=60&h=60&fill-color=fff&fit=fillmax&fill=solid",
+                            image: "https://ph-files.imgix.net/bcd0e907-33fe-4e5b-92fd-69201921f85a?auto=format&auto=compress&codec=mozjpeg&cs=strip&w=80&h=80&fit=crop&bm=normal&bf=max&bh=40&bw=40",
                             title: "The Offix",
-                            text: "Full-stack Engineer/ Product Engineer with a passion for machine learning/big data",
+                            text: "Full-stack Engineer/ Product Engineer",
                             comments: "share",
-                            upVotes: "India"
+                            upVotes: "Subscribe"
+                        },
+                        {
+                            image: "https://ph-files.imgix.net/981dc16d-6453-4e3b-979f-77df6f0e11f7?auto=format&auto=compress&codec=mozjpeg&cs=strip&w=80&h=80&fit=crop&bm=normal&bf=max&bh=40&bw=40",
+                            title: "Now/Next",
+                            text: "Full-stack Engineer/ Product Engineer",
+                            comments: "share",
+                            upVotes: "Subscribe"
+                        },
+                        {
+                            image: "https://ph-files.imgix.net/58321d43-b73d-4db1-a73c-99203f17e524?auto=format&auto=compress&codec=mozjpeg&cs=strip&w=80&h=80&fit=crop&bm=normal&bf=max&bh=40&bw=40",
+                            title: "Now/Next",
+                            text: "Full-stack Engineer/ Product Engineer",
+                            comments: "share",
+                            upVotes: "Subscribe"
                         }
+                      
                     ].map(profile => (
                         <MainSectionJobs {...profile} />
                     ))}

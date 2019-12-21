@@ -5,7 +5,7 @@ const MainSectionJobs = p => {
     return (
         <div className="container">
             <div className="container-img">
-                <img src={p.image} alt="" width="80px" height="80px" />
+                <img style={{border:"1px solid lightgrey"}} src={p.image} alt="" width="80px" height="80px" />
             </div>
             <div className="container-content">
                 <p>{p.title}</p>
